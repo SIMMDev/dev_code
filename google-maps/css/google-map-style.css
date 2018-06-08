@@ -1,0 +1,95 @@
+@import url("https://use.fontawesome.com/releases/v5.0.12/css/all.css");
+
+.main-controls1{
+    margin-top:10px;
+    position: relative;
+    border-radius: 12px;
+    height: 50px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    outline: none;
+    -moz-box-sizing: border-box;
+    border-radius: 20px;
+    height: 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+.main-controls input {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    outline: none;
+    -moz-box-sizing: border-box;
+    border-radius: 20px;
+    height: 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.main-controls input { text-indent: 38px;}
+.main-controls .fa-map-marker-alt  { 
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    font-size: 25px;
+    color: #F15A24
+ }
+
+.main-controls .fa-dot-circle { 
+    position: absolute;
+    top: 25%;
+    left: 8.5%;
+    font-size: 23px;
+    color: #F15A24
+ }
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+.google{
+    position: absolute; top: 35vh; left: 0px; z-index: 99; 
+}
+.main-controls {
+    margin-top:10px;
+    position: relative;
+    border-radius: 20px;
+    height: 50px;
+    outline: none;
+    font-family: "FontAwesome";
+}
+#origin-input,
+#destination-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 0px;
+    padding: 0 10px 0 6px;
+    text-overflow: ellipsis;
+    width: 95%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+    border-color: #4d90fe;
+}
+
+#mode-selector {
+    display: none;
+    color: #fff;
+    background-color: #4d90fe;
+    margin-left: 0px;
+    padding: 5px 11px 0px 11px;
+    width: 95%;
+}
+
+#mode-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}

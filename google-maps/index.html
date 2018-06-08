@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/google-map-style.css">
+    <script src="js/google-map.js"></script>
+
+
+</head>
+<body>
+    <main>
+        <div class="col-md-4 col-xs-12 main-controls ">
+            <span class="fas fa-dot-circle"></span>
+            <input id="origin-input" type="text" placeholder="Enter an origin location">
+        </div>
+        <div class="col-md-4 col-xs-12 main-controls">
+            <span class="fas fa-map-marker-alt"></span>
+            <input id="destination-input" type="text" placeholder="Enter a destination location">
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div id="mode-selector" class="controls">
+                <input type="radio" name="type" id="changemode-walking">
+                <label for="changemode-walking">Walking</label>
+
+                <input type="radio" name="type" id="changemode-transit">
+                <label for="changemode-transit">Transit</label>
+
+                <input type="radio" name="type" id="changemode-driving" checked="checked">
+                <label for="changemode-driving">Driving</label>
+            </div>
+        </div>
+        <div id="map"></div>
+    </main>
+</body>
+</html>
